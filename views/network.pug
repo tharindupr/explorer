@@ -9,10 +9,10 @@ block content
         ul.nav.nav-tabs(role='tablist')
           li.nav-item.active(role='presentation')
             a.nav-link.show.active(href='#connections', aria-controls='connections', role='tab', data-toggle='tab') #{settings.locale.net_connections}
-          li.nav-item(role='presentation')
-            a.nav-link(href='#addnodes', aria-controls='addnodes', role='tab', data-toggle='tab') #{settings.locale.net_addnodes}
+          //li.nav-item(role='presentation')
+            //a.nav-link(href='#addnodes', aria-controls='addnodes', role='tab', data-toggle='tab') #{settings.locale.net_addnodes}
     .tab-content
       #connections.card.card-default.tab-pane.active 
         include ./includes/net_list.pug
-      #addnodes.card.card-default.tab-pane
-        include ./includes/net_addnodes.pug
+      // #addnodes.card.card-default.tab-pane
+       // include ./includes/net_addnodes.pug
